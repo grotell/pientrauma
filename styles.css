@@ -1,0 +1,78 @@
+/* Light mode (default) */
+body {
+    background-color: #ffffff; /* Light background */
+    color: #000000; /* Dark text */
+  }
+  
+  /* Dark mode */
+body.dark-mode {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text */
+  }
+
+.container {
+    display: flex; /* This enables Flexbox layout for the container */
+    width: 100%; /* Ensures the container takes the full width */
+    
+  }
+  
+  .svg-container {
+    display: flex; /* Establishes this container as a flex container */
+    justify-content: center; /* Centers content horizontally in the container */
+    align-items: center; /* Centers content vertically in the container */
+    height: 100%; /* You may adjust this value based on your layout needs */
+  }
+  
+  .info-container {
+    flex-grow: 1; /* This allows the right container to grow and take up as much space as possible */
+    /* Add any additional styling here */
+  }
+
+
+.container2 {
+    display: flex; /* Enables Flexbox layout, aligning children in a row by default */
+    justify-content: space-between; /* Aligns children with space between them, pushing the right div to the end */
+  }
+  .left-div,
+  .right-div {
+    padding: 10px; /* Adds some padding inside the divs for better visual spacing */
+    /*Add any additional styling here */
+  }
+
+/* Alternatively, if you want to be more specific */
+.markdown-body p, .markdown-body li, .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+    font-family: 'Georgia', serif !important;
+  }
+
+  /* Button base style */
+.info-container button {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* No borders */
+  color: white; /* White text */
+  padding: 10px 24px; /* Top and bottom padding, left and right padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Allows setting margins */
+  font-size: 16px; /* Text size */
+  margin: 8px; /* Spacing between buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Button hover state */
+.info-container button:hover {
+  background-color: #45a049; /* Darker shade of green when hovered */
+}
+
+/* Button active state */
+.info-container button:active {
+  background-color: #3e8e41; /* Even darker shade of green when active */
+  box-shadow: 0 5px #666; /* Shadow effect for depth */
+  transform: translateY(4px); /* Slight move down to mimic a press effect */
+}
+
+/* Button focus state */
+.info-container button:focus {
+  outline: none; /* Removes the outline to avoid distractions */
+  border: 2px solid #fff; /* Optional: adds a white border if you prefer a focus indicator */
+}
