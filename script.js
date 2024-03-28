@@ -61,7 +61,7 @@
    
        // Revised function to handle dynamically loaded content
        function loadMarkdownToInfoContainer(filename) {
-           fetch('http://localhost:8000/' + filename + '.md')
+           fetch('./ohjeet/' + filename + '.md')
                .then(response => response.text())
                .then(text => {
                    const infoContainer = document.querySelector('.info-container');
