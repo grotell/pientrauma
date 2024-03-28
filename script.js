@@ -74,7 +74,6 @@
        }
    
        // Function to attach event listeners to buttons within the dynamically loaded Markdown content
-       // Function to attach event listeners to buttons within the dynamically loaded Markdown content
          function attachButtonListeners() {
             const buttons = document.querySelectorAll('.info-container button'); // Assuming buttons are within .info-container
             buttons.forEach(button => {
