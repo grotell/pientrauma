@@ -61,7 +61,8 @@
    
        // Revised function to handle dynamically loaded content
        function loadMarkdownToInfoContainer(filename) {
-           fetch('./ohjeet/' + filename + '.md')
+            let filenameLowerCase = filename.toLowerCase();
+            fetch('./ohjeet/' + filenameLowerCase + '.md')
                .then(response => response.text())
                .then(text => {
                    const infoContainer = document.querySelector('.info-container');
