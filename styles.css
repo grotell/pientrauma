@@ -77,15 +77,6 @@ body.dark-mode {
   border: 2px solid #fff; /* Optional: adds a white border if you prefer a focus indicator */
 }
 
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-table, th, td {
-  border: 1px solid black;
-  padding: 10px;
-}
 .red-circle {
   height: 15px;
   width: 15px;

@@ -1,9 +1,6 @@
-# Radius (distaaliosan murtuma)
+# Radiuksen distaaliosan murtuma
 
 <button id="radius_proksimaalinen">Proksimaaliset murtumat</button><button id="radius_diafyysi">Diafyysin murtumat</button><button id="radius_distaalinen">Distaaliset murtumat</button>
-
----
-*päivitetty 1.1.2024*
 
 ---
 
