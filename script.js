@@ -71,7 +71,7 @@
                    // Now attach event listeners to the dynamically loaded content
                    attachButtonListeners();
                })
-               .catch(error => console.error('Error loading the Markdown file:', error));
+               .catch(error => e.errconsolor('Error loading the Markdown file:', error));
        }
    
        // Function to attach event listeners to buttons within the dynamically loaded Markdown content
