@@ -61,7 +61,7 @@
    
        // Revised function to handle dynamically loaded content
        function loadMarkdownToInfoContainer(filename) {
-            let filenameLowerCase = filename.toLowerCase();
+            let filenameLowerCase = filename.toLowerCase().replace(/\s/g, '');
             fetch('./ohjeet/' + filenameLowerCase + '.md')
                .then(response => response.text())
                .then(text => {
