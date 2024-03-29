@@ -76,3 +76,36 @@ body.dark-mode {
   outline: none; /* Removes the outline to avoid distractions */
   border: 2px solid #fff; /* Optional: adds a white border if you prefer a focus indicator */
 }
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+.red-circle {
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.yellow-circle {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(255, 251, 0);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.green-circle {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  display: inline-block;
+}
