@@ -41,7 +41,7 @@ Tietokonetomografia (TT) voi olla tarpeen pirstaleisten niveleen ulottuvien murt
 | **Smithin murtuma** | Volaarinen angulaatio distaalisen radiuksen tasossa, distaalinen radiuksen fragmentti on siirtynyt volaarisesti ja proksimaalisesti. | Usein vähemmän stabiili kuin Collesin murtuma, mahdollinen volaarinen siirtymä voi aiheuttaa epävakautta. | Volaarinen angulaatio ja siirtymä; distaalisen fragmentin volaarinen kallistus sivukuvassa. |
 | **Bartonin murtuma** | Volaarisen ja proksimaalisen siirtymän omaava suuri fragmentti radiuksen nivelpinnasta. | Yleensä epästabiili, koska mukana on nivelpinnan vaurioita. | Distaalisen radiuksen volaarisen lipan murtuma; nivelpinnan dislokaatio tai siirtymä. |
 | **Die-punch murtuma** | Distaalisen radiuksen artikulaarisen pinnan depressio, joka yleensä aiheutuu luiden välisestä paineesta. | Epästabiili, erityisesti jos artikulaarinen pinta on merkittävästi vaurioitunut. | Artikulaarisen pinnan painuma, erityisesti radiuksen säteisessä osassa. |
-| **Hutchinsonin murtuma** | Sääriluun styloidiprosessin murtuma, tunnetaan myös "chauffeur's fracture" -nimellä. | Stabiilisuus vaihtelee riippuen murtuman laajuudesta ja mahdollisesta siirtymästä. | Radiuksen styloidiprosessin erillinen fragmentti; mahdollinen radiaalisen nivelsiteen vaurio. |
+| **Hutchinsonin murtuma** | Radiuksen styloidiprosessin murtuma, tunnetaan myös "chauffeur's fracture" -nimellä. | Stabiilisuus vaihtelee riippuen murtuman laajuudesta ja mahdollisesta siirtymästä. | Radiuksen styloidiprosessin erillinen fragmentti; mahdollinen radiaalisen nivelsiteen vaurio. |
 
 ## Hoito
 Tyypillinen repositiotekniikka kuvattu ohessa:
