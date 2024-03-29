@@ -1,6 +1,6 @@
-# ulna
+# manuphalangesdist (diafyysin murtuma)
 
-<button id="ulna_proksimaalinen">Proksimaaliset murtumat</button><button id="ulna_diafyysi">Diafyysin murtumat</button><button id="ulna_distaalinen">Distaaliset murtumat</button>
+<button id="manuphalangesdist_proksimaalinen">Proksimaaliset murtumat</button><button id="manuphalangesdist_diafyysi">Diafyysin murtumat</button><button id="manuphalangesdist_distaalinen">Distaaliset murtumat</button>
 
 ---
 

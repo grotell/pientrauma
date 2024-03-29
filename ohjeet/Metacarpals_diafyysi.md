@@ -1,6 +1,6 @@
-# ulna
+# metacarpals (diafyysin murtuma)
 
-<button id="ulna_proksimaalinen">Proksimaaliset murtumat</button><button id="ulna_diafyysi">Diafyysin murtumat</button><button id="ulna_distaalinen">Distaaliset murtumat</button>
+<button id="metacarpals_proksimaalinen">Proksimaaliset murtumat</button><button id="metacarpals_diafyysi">Diafyysin murtumat</button><button id="metacarpals_distaalinen">Distaaliset murtumat</button>
 
 ---
 

@@ -1,16 +1,15 @@
-# Vammatyypi
-*päivitetty 1.1.2024*
+# cranium
+
+<button id="cranium_proksimaalinen">Proksimaaliset murtumat</button><button id="cranium_diafyysi">Diafyysin murtumat</button><button id="cranium_distaalinen">Distaaliset murtumat</button>
 
 ---
 
 Liittyvät ICD-koodit
-
-	''
+>
 	
 Liittyvät TMP-koodit
+>
 
-	''	
-	
 ---
 
 ## Tyypillinen vammamekanismi
@@ -30,3 +29,8 @@ Liittyvät TMP-koodit
 ## Hoitokertomusfraasit
 ### Status
 ### Suunnitelma
+
+---
+# Tekijät
+- Nimi 1
+- Nimi 2

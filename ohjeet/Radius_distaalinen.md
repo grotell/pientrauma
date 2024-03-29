@@ -1,6 +1,6 @@
-# Radius (distaalinen murtuma)
+# Radius (distaaliosan murtuma)
 
-<button id="proksradius">Proksimaaliset murtumat</button><button id="diaradius">Diafyysin murtumat</button><button id="distradius">Distaaliset murtumat</button>
+<button id="radius_proksimaalinen">Proksimaaliset murtumat</button><button id="radius_diafyysi">Diafyysin murtumat</button><button id="radius_distaalinen">Distaaliset murtumat</button>
 
 ---
 *päivitetty 1.1.2024*
@@ -104,5 +104,7 @@ Käsikirurgin konsultaatio on suositeltavaa, jos murtuma on epävakaa, intra-art
 
 >Aloitetaan konservatiivinen hoito dorsaalisella kipsilastalla 5 viikoksi. Seurantakäynti 10 vrk kohdalla. Harkitaan tuolloin TT-kuvantamista, jos epäillään merkittävää nivelpinnan vauriota.
 
+---
 # Tekijät
-
+- Nimi 1
+- Nimi 2

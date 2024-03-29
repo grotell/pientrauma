@@ -1,6 +1,6 @@
-# ulna
+# pesphalanges1 (diafyysin murtuma)
 
-<button id="ulna_proksimaalinen">Proksimaaliset murtumat</button><button id="ulna_diafyysi">Diafyysin murtumat</button><button id="ulna_distaalinen">Distaaliset murtumat</button>
+<button id="pesphalanges1_proksimaalinen">Proksimaaliset murtumat</button><button id="pesphalanges1_diafyysi">Diafyysin murtumat</button><button id="pesphalanges1_distaalinen">Distaaliset murtumat</button>
 
 ---
 

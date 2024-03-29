@@ -1,6 +1,6 @@
-# ulna
+# sternum (distaaliosan murtuma)
 
-<button id="ulna_proksimaalinen">Proksimaaliset murtumat</button><button id="ulna_diafyysi">Diafyysin murtumat</button><button id="ulna_distaalinen">Distaaliset murtumat</button>
+<button id="sternum_proksimaalinen">Proksimaaliset murtumat</button><button id="sternum_diafyysi">Diafyysin murtumat</button><button id="sternum_distaalinen">Distaaliset murtumat</button>
 
 ---
 

@@ -1,6 +1,6 @@
-# ulna
+# pesmetatarsals1
 
-<button id="ulna_proksimaalinen">Proksimaaliset murtumat</button><button id="ulna_diafyysi">Diafyysin murtumat</button><button id="ulna_distaalinen">Distaaliset murtumat</button>
+<button id="pesmetatarsals1_proksimaalinen">Proksimaaliset murtumat</button><button id="pesmetatarsals1_diafyysi">Diafyysin murtumat</button><button id="pesmetatarsals1_distaalinen">Distaaliset murtumat</button>
 
 ---
 

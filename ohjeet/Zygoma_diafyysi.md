@@ -1,6 +1,6 @@
-# ulna
+# zygoma (diafyysin murtuma)
 
-<button id="ulna_proksimaalinen">Proksimaaliset murtumat</button><button id="ulna_diafyysi">Diafyysin murtumat</button><button id="ulna_distaalinen">Distaaliset murtumat</button>
+<button id="zygoma_proksimaalinen">Proksimaaliset murtumat</button><button id="zygoma_diafyysi">Diafyysin murtumat</button><button id="zygoma_distaalinen">Distaaliset murtumat</button>
 
 ---
 

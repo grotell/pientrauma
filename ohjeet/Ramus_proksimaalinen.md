@@ -1,6 +1,6 @@
-# ulna
+# ramus (proksimaaliosan murtuma)
 
-<button id="ulna_proksimaalinen">Proksimaaliset murtumat</button><button id="ulna_diafyysi">Diafyysin murtumat</button><button id="ulna_distaalinen">Distaaliset murtumat</button>
+<button id="ramus_proksimaalinen">Proksimaaliset murtumat</button><button id="ramus_diafyysi">Diafyysin murtumat</button><button id="ramus_distaalinen">Distaaliset murtumat</button>
 
 ---
 
