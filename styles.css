@@ -1,102 +1,182 @@
 /* Light mode (default) */
 body {
-    background-color: #ffffff; /* Light background */
-    color: #000000; /* Dark text */
-  }
-  
-  /* Dark mode */
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Dark text */
+}
+
+/* Dark mode */
 body.dark-mode {
-    background-color: #121212; /* Dark background */
-    color: #ffffff; /* Light text */
-  }
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+}
 
 .container {
-    display: flex; /* This enables Flexbox layout for the container */
-    width: 100%; /* Ensures the container takes the full width */
-    
-  }
+  display: flex; /* This enables Flexbox layout for the container */
+  width: 100%; /* Ensures the container takes the full width */
   
-  .svg-container {
-    display: flex; /* Establishes this container as a flex container */
-    justify-content: center; /* Centers content horizontally in the container */
-    align-items: center; /* Centers content vertically in the container */
-    height: 100%; /* You may adjust this value based on your layout needs */
-  }
-  
-  .info-container {
-    flex-grow: 1; /* This allows the right container to grow and take up as much space as possible */
-    /* Add any additional styling here */
-  }
+}
+
+.svg-container {
+  display: flex; /* Establishes this container as a flex container */
+  justify-content: center; /* Centers content horizontally in the container */
+  align-items: center; /* Centers content vertically in the container */
+  height: 100%; /* You may adjust this value based on your layout needs */
+}
+
+.info-container {
+  flex-grow: 1; /* This allows the right container to grow and take up as much space as possible */
+  /* Add any additional styling here */
+  padding: 10px;
+}
 
 
 .container2 {
-    display: flex; /* Enables Flexbox layout, aligning children in a row by default */
-    justify-content: space-between; /* Aligns children with space between them, pushing the right div to the end */
-  }
-  .left-div,
-  .right-div {
-    padding: 10px; /* Adds some padding inside the divs for better visual spacing */
-    /*Add any additional styling here */
-  }
+  display: flex; /* Enables Flexbox layout, aligning children in a row by default */
+  justify-content: space-between; /* Aligns children with space between them, pushing the right div to the end */
+}
+.left-div
+{
+  padding: 5px; /* Adds some padding inside the divs for better visual spacing */
+  /*Add any additional styling here */
+  align-items: center; /* Centers vertically */
+}
+.right-div {
+  padding: 5px; /* Adds some padding inside the divs for better visual spacing */
+  /*Add any additional styling here */
+}
 
 /* Alternatively, if you want to be more specific */
 .markdown-body p, .markdown-body li, .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
-    font-family: 'Georgia', serif !important;
-  }
-
-  /* Button base style */
-.info-container button {
-  background-color: #4CAF50; /* Green background */
-  border: none; /* No borders */
-  color: white; /* White text */
-  padding: 10px 24px; /* Top and bottom padding, left and right padding */
-  text-align: center; /* Centered text */
-  text-decoration: none; /* No underline */
-  display: inline-block; /* Allows setting margins */
-  font-size: 16px; /* Text size */
-  margin: 8px; /* Spacing between buttons */
-  cursor: pointer; /* Pointer cursor on hover */
-  border-radius: 8px; /* Rounded corners */
+  font-family: 'Georgia', serif !important;
 }
 
-/* Button hover state */
-.info-container button:hover {
-  background-color: #45a049; /* Darker shade of green when hovered */
+.toc-container .green-button {
+  background-color: #4CAF50;
+  color: white;
+  border-color: #3e8e41; /* Assuming from your provided CSS */
+  width: calc(15em + 1vw); /* Uniform width */
+  font-size: 14px; /* Adjusted font size */
+  padding: 5px 10px; /* Reduced padding */
 }
 
-/* Button active state */
-.info-container button:active {
-  background-color: #3e8e41; /* Even darker shade of green when active */
-  box-shadow: 0 5px #666; /* Shadow effect for depth */
-  transform: translateY(4px); /* Slight move down to mimic a press effect */
+.toc-container .green-button:hover,
+.toc-container .green-button:focus {
+  background-color: #45a049;
+  border-color: #367c3f; /* Darker border for hover/focus */
 }
 
-/* Button focus state */
-.info-container button:focus {
-  outline: none; /* Removes the outline to avoid distractions */
-  border: 2px solid #fff; /* Optional: adds a white border if you prefer a focus indicator */
+.toc-container .green-button:active {
+  background-color: #419641; /* Slightly darker for active state */
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); /* Simulate a pressed button */
+}
+
+.toc-container .red-button {
+  background-color: #f44336;
+  color: white;
+  border-color: #d43f3a; /* Assuming from your provided CSS */
+  width: calc(15em + 1vw); /* Uniform width */
+  font-size: 14px; /* Adjusted font size */
+  padding: 5px 10px; /* Reduced padding */
+}
+
+.toc-container .red-button:hover,
+.toc-container .red-button:focus {
+  background-color: #d32f2f;
+  border-color: #c12e2a; /* Darker border for hover/focus */
+}
+
+.toc-container .red-button:active {
+  background-color: #c1302e; /* Slightly darker for active state */
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); /* Simulate a pressed button */
+}
+
+.toc-container .gray-button {
+  width: 100px; /* Uniform width */
+  padding: 5px 10px; /* Reduced padding */
+
+  background-color: #e7e7e7;
+  color: black;
+  border-color: #d6d6d6; /* Assuming from your provided CSS */
+  width: calc(15em + 1vw); /* Uniform width */
+  font-size: 14px; /* Adjusted font size */
+  padding: 5px 10px; /* Reduced padding */
+}
+
+.toc-container .gray-button:hover,
+.toc-container .gray-button:focus {
+  background-color: #dcdcdc;
+  border-color: #cccccc; /* Darker border for hover/focus */
+}
+
+.toc-container .gray-button:active {
+  background-color: #d0d0d0; /* Slightly darker for active state */
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); /* Simulate a pressed button */
+}
+
+.toc-container .yellow-button {
+  width: 100px; /* Uniform width */
+  padding: 5px 10px; /* Reduced padding */
+  background-color: #ffeb3b;
+  color: black;
+  border-color: #fdd835; /* Assuming from your provided CSS */
+  width: calc(15em + 1vw); /* Uniform width */
+  font-size: 14px; /* Adjusted font size */
+  padding: 5px 10px; /* Reduced padding */
+}
+
+.toc-container .yellow-button:hover,
+.toc-container .yellow-button:focus {
+  background-color: #fdd835;
+  border-color: #fccf31; /* Darker border for hover/focus */
+}
+
+.toc-container .yellow-button:active {
+  background-color: #fbc02d; /* Slightly darker for active state */
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); /* Simulate a pressed button */
+}
+
+.toc-container .button:focus {
+  box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4); /* Focus ring for accessibility */
 }
 
 .red-circle {
-  height: 15px;
-  width: 15px;
-  background-color: red;
-  border-radius: 50%;
-  display: inline-block;
+height: 15px;
+width: 15px;
+background-color: red;
+border-radius: 50%;
+display: inline-block;
 }
 
 .yellow-circle {
-  height: 15px;
-  width: 15px;
-  background-color: rgb(255, 251, 0);
-  border-radius: 50%;
-  display: inline-block;
+height: 15px;
+width: 15px;
+background-color: rgb(255, 251, 0);
+border-radius: 50%;
+display: inline-block;
 }
 
 .green-circle {
-  height: 15px;
-  width: 15px;
-  background-color: rgb(0, 255, 0);
-  border-radius: 50%;
-  display: inline-block;
+height: 15px;
+width: 15px;
+background-color: rgb(0, 255, 0);
+border-radius: 50%;
+display: inline-block;
+}
+
+/* Spacing between containers */
+.info-container, .toc-container {
+  padding: 10px; /* Adds space inside the containers, around the content */
+}
+
+.content-container {
+  display: flex;
+  gap: 20px; /* Adds space between flex items */
+}
+
+.info-container {
+  margin-right: 20px; /* Adds space to the right of the container */
+}
+
+.toc-container {
+  margin-left: 20px; /* Adds space to the left of the container */
 }

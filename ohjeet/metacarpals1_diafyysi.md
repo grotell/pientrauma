@@ -1,6 +1,5 @@
 # metacarpals1 (diafyysin murtuma)
 
-<button id="metacarpals1_proksimaalinen">Proksimaaliset murtumat</button><button id="metacarpals1_diafyysi">Diafyysin murtumat</button><button id="metacarpals1_distaalinen">Distaaliset murtumat</button>
 
 ---
 

@@ -1,6 +1,11 @@
-# clavicle (diafyysin murtuma)
+# Clavicle (solisluu)
 
-<button id="clavicle_proksimaalinen">Proksimaaliset murtumat</button><button id="clavicle_diafyysi">Diafyysin murtumat</button><button id="clavicle_distaalinen">Distaaliset murtumat</button>
+## Murtumat
+
+## Luksaatiot ja ligamenttivammat
+
+---
+*päivitetty 1.1.2023*
 
 ---
 

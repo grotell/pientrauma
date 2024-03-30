@@ -1,34 +1,5 @@
-# Kaularangan murtuma
+# C-Vertebrae
 
----
+<button class="green-button" id="c-vertabreaDens">Densin murtuma</button>
 
-Liittyvät ICD-koodit
->
-	
-Liittyvät TMP-koodit
->
-
----
-
-## Tyypillinen vammamekanismi
-
-## Kliininen tutkimus
-
-## Kuvantaminen
-### Modaliteetit
-### Radiologinen klassifikaatio
-
-## Hoito
-### Konservatiivinen
-#### Seuranta
-### Operatiivinen
-### Konsultaatiot
-
-## Hoitokertomusfraasit
-### Status
-### Suunnitelma
-
----
-# Tekijät
-- Nimi 1
-- Nimi 2
+<button class="green-button" id="c-vertabreaVertabraeFrak">Muun nikaman murtuma</button>

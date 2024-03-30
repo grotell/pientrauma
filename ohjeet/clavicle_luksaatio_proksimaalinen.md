@@ -1,5 +1,7 @@
-# lumbar_vertebrae_(l_i_-_l_v) (diafyysin murtuma)
+# proksimaalinen luksaatio
 
+---
+*päivitetty 1.1.2023*
 
 ---
 
