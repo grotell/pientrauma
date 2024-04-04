@@ -1,1 +1,1 @@
-[Pientraumapäivystysopas](https://https://pientrauma.fi/)
+[Pientraumapäivystysopas](https://pientrauma.fi/)
