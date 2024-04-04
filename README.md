@@ -1,1 +1,1 @@
-# pientrauma
+[Pientraumapäivystysopas](https://https://pientrauma.fi/)
