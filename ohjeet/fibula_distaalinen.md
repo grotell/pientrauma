@@ -31,15 +31,15 @@ Tyypilliset potilaat valittavat kipua, turvotusta ja arkuutta nilkan ulkopuolell
 > Proksimaalinen fibula ei aristele. Squeeze-test ei aristele. Ulkorotaatiotestissä ei kipua. Lateraali malleoli ei aristele. Ei kipua palpoidessa lateraalisissa nivelsiteissä. Mediaalimalleoli ei aristele. Deltan seutu ei aristele. Takakolmion seutu kivuton. Jalkapöydän luut kivuttomat. Varpaat liikkuvat. ADP +. ATP +. Ei huomattavaa turvotusta. Iho rypyttyy. Vetolaatikossa normaalinomainen laksiteetti. Työntö lateraalisuuntaan ei laksoi. Kliinisesti siis stabiili.
 
 ## Kuvantaminen
-Ottawa-säännöt ovat suunniteltu auttamaan lääkäreitä päättämään, onko nilkkavamman jälkeen tarpeen tehdä röntgenkuvaus. Röntgenkuvaus on suositeltavaa, jos potilaalla on jokin ohessa olevan taulukon oireista. 
+Ottawa-säännöt ovat suunniteltu auttamaan lääkäreitä päättämään, onko nilkkavamman jälkeen tarpeen tehdä röntgenkuvaus. Röntgenkuvaus on suositeltavaa, jos potilaalla on jokin seuraavista oireista: 
 
-| Kriteeri | Kuvaus |
-|----------|--------|
-| Kävelykyky | Kyvyttömyys varata painoa välittömästi vamman jälkeen tai neljän askeleen verran lääkärin arviossa |
-| Distaalisen fibulan kipu | Kipu nilkan lateraalisen melleolin alueella tai tuosta 6 cm proksimaalisesti |
-| Distaalisen tibian kipu | Kipu nilkan mediaalisen melleolin alueella tai tuosta 6 cm proksimaalisesti |
-| Naviculare luiden kipu | Kipu jalkapöydän navikulaariluiden alueella |
-| 5. metatarsaalin proksimaalinen kipu | Kipu viidennen metatarsaalin proksimaalisen pään alueella |
+- Kyvyttömyys varata painoa välittömästi vamman jälkeen tai neljän askeleen verran lääkärin arviossa
+- Kipu nilkan lateraalisen melleolin alueella tai tuosta 6 cm proksimaalisesti
+- Kipu nilkan mediaalisen melleolin alueella tai tuosta 6 cm proksimaalisesti
+- Kipu jalkapöydän navikulaariluiden alueella
+- Kipu viidennen metatarsaalin proksimaalisen pään alueella
+
+
 
 ### Modaliteetit
 - **Röntgen**: Suoritetaan ensisijaisesti nilkan AP-, lateraali- ja mortise-näkymissä fibulan distaaliosan murtuman toteamiseksi. Jos aristusta proksimaalisessa fibulassa, tulee myös tuo alue kuvata.
