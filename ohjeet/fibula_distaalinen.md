@@ -39,9 +39,7 @@ Tyypilliset potilaat valittavat kipua, turvotusta ja arkuutta nilkan ulkopuolell
 Weberin klassifikaatio on yleisesti käytetty fibulan isoloituneiden murtumien luokittelussa, joka perustuu murtuman sijaintiin suhteessa syndesmoosiin.
 - **Weber A**: Murtuma sijaitsee syndesmoosin alapuolella. Tyypillisesti stabiili.
 - **Weber B**: Murtuma on syndesmoosin tasolla tai sen lähellä. Voi olla stabiili, mutta stabiliteetin arviointiin kiinnitettävä erityistä huomiota.
-- **Weber C**: Murtuma on syndesmoosin yläpuolella. Ty
-
-ypillisesti epästabiili johtuen todennäköisestä syndesmoosivammasta.
+- **Weber C**: Murtuma on syndesmoosin yläpuolella. Tyypillisesti epästabiili johtuen todennäköisestä syndesmoosivammasta.
 
 ## Hoito
 ### Konservatiivinen
