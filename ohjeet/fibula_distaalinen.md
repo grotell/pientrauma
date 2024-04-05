@@ -4,7 +4,6 @@
 ---
 
 Liittyvät ICD-koodit
-> Sääriluun ja pohjeluun murtumat: S82.-
 > Pohjeluun distaalisen pään murtumat: S82.6
 
 Liittyvät TMP-koodit
