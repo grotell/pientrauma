@@ -88,7 +88,28 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Revised function to load content into '.info-container' based on button clicks
+    // Function to attach event listeners to buttons within the 'info-container'
+    function attachInfoContainerButtonListeners() {
+        const buttons = document.querySelectorAll('.info-container button'); // Assuming buttons are within .info-container
+        buttons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Load content into '.info-container' based on button ID
+                loadMarkdownToInfoContainer(this.id);
+
+                // Change clicked button class to 'red-button'
+                this.className = 'red-button';
+
+                // Change all other buttons to 'green-button', excluding the clicked one
+                buttons.forEach(otherButton => {
+                    if (otherButton !== this) { // Check if it's not the clicked button
+                        otherButton.className = 'green-button';
+                    }
+                });
+            });
+        });
+    }
+
+    // Function to load content into '.info-container' based on button clicks
     function loadMarkdownToInfoContainer(filename) {
         let filenameLowerCase = filename.toLowerCase().replace(/\s/g, '');
         fetch('./ohjeet/' + filenameLowerCase + '.md')
@@ -96,14 +117,14 @@ document.addEventListener("DOMContentLoaded", function() {
             .then(text => {
                 const infoContainer = document.querySelector('.info-container');
                 infoContainer.innerHTML = '<div class="markdown-body">' + marked.parse(text) + '</div>';
+                attachInfoContainerButtonListeners(); // Ensure new buttons also get listeners
             })
             .catch(error => console.error('Error loading the Markdown file:', error));
     }
 
-
+    // Function to empty the '.info-container'
     function emptyMarkdownToInfoContainer() {
         const infoContainer = document.querySelector('.info-container');
         infoContainer.innerHTML = '<div class="markdown-body"> </div>';
     }
-
 });
