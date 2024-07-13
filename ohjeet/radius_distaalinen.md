@@ -1,5 +1,5 @@
-# Distaaliosan murtuma (Lisätietoa)
-<button class="green-button" id="radius_distaalinen_hoito-ohjeet">Hoito-ohjeet</button> <button class="red-button" id="radius_distaalinen_lisatietoa">Lisätietoa</button>
+# distaaliosan murtuma (Hoito-ohjeet)
+<button class="red-button" id="radius_distaalinen_hoito-ohjeet">Hoito-ohjeet</button> <button class="green-button" id="radius_distaalinen_lisatietoa">Lisätietoa</button>
 
 ---
 
